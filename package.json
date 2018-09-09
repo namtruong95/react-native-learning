@@ -6,7 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "run:android": "react-native run-android",
-    "build:android": "react-native run-android --variant=release"
+    "build:android": "react-native run-android --variant=release",
+    "run:ios": "react-native run-ios --simulator \"iPhone 6s\"",
+    "build:ios": "react-native run-ios --simulator \"iPhone 6s\" --configuration Release"
   },
   "dependencies": {
     "react": "16.4.1",
